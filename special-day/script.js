@@ -18,5 +18,7 @@ var x = setInterval(function () {
     document.getElementById("hours").innerHTML = 0;
     document.getElementById("minutes").innerHTML = 0;
     document.getElementById("seconds").innerHTML = 0;
+    document.getElementById("col-start").style.display = "none";
+    document.getElementById("col-end").style.display = "unset";
   }
 }, 1000);

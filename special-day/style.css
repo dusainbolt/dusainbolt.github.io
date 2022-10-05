@@ -406,3 +406,11 @@ body {
   top: 30px;
   color: #073b4c;
 }
+
+#col-end {
+  display: none;
+}
+
+#col-end .countd {
+  font-size: 18px;
+}
